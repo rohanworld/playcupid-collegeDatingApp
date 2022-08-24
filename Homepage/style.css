@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Varela+Round&display=swap');
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/mainbg.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    top: 20px;
+}
+.left img{
+    width: 53px; 
+    /* filter: invert(100%); ...used to change black to white and vice versa */
+    padding-left: 32px;
+    cursor: pointer;
+}
+.left div{
+    text-align: center;
+    line-height: 12px;
+    font-size: 18px;
+}
+.mid{
+    /* border: 2px solid red; */
+    display: block;
+    width: 42%;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 19px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: #e9c2d7;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.btn:hover{
+    background-color: #ff496c;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.container{
+    border: 2px solid rgb(226, 126, 126);
+    width: 23%;
+    padding: 12px 45px;
+    margin: 45px 45px;
+    border-radius: 15px;
+}
+.container h1{
+    text-align: center;
+    color: #e05c5c;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Varela Round', sans-serif;
+    margin: 25px auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+.container button{
+    display: block;
+    margin: 32px auto;
+    width: 70%;
+}
